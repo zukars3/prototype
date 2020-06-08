@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'driver' => 'mysql',
+    'driver' => 'any',
     'host' => 'localhost',
-    'database' => 'altero',
-    'username' => 'karlis',
-    'password' => '@Tests12345',
+    'database' => 'database',
+    'username' => 'username',
+    'password' => 'password',
     'charset' => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix' => ''
