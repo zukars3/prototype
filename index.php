@@ -3,10 +3,10 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 $dispatcher = FastRoute\simpleDispatcher(function (FastRoute\RouteCollector $router) {
-    $router->addRoute('GET', '/', 'ApplicationsController@index');
-    $router->addRoute('POST', '/application/create', 'ApplicationsController@create');
-    $router->addRoute('GET', '/partner/applications', 'ApplicationsController@partners');
-    $router->addRoute('POST', '/partner/applications/offer', 'ApplicationsController@offer');
+    $router->addRoute('GET', '/', 'DealsController@index');
+    $router->addRoute('POST', '/application/create', 'DealsController@create');
+    $router->addRoute('GET', '/partner/applications', 'DealsController@partners');
+    $router->addRoute('POST', '/partner/applications/offer', 'DealsController@offer');
 });
 
 $httpMethod = $_SERVER['REQUEST_METHOD'];
