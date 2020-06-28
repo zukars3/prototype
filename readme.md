@@ -1,6 +1,8 @@
 ##### Please run following commands:
 ###### composer install
 ###### composer dump-autoload
+##### To run server run command:
+###### php -S localhost:8000
 
 1. DealsController
 
